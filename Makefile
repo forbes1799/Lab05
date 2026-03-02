@@ -1,5 +1,5 @@
 COMPILER = gcc
-CFLAGS = -fopenmp -O3
+CFLAGS = -fopenmp
 
 hello: HelloOpenMP.c
 	$(COMPILER) $(CFLAGS) HelloOpenMP.c -o hello.exe
